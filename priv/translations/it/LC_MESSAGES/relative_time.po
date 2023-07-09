@@ -69,44 +69,44 @@ msgid "yesterday"
 msgstr "ieri"
 
 #: lib/l10n/translator.ex:336
-msgid "%{count} day ago"
-msgid_plural "%{count} days ago"
+msgid "%{count} day"
+msgid_plural "%{count} days"
 msgstr[0] "%{count} giorno fa"
 msgstr[1] "%{count} giorni fa"
 
 #: lib/l10n/translator.ex:361
-msgid "%{count} hour ago"
-msgid_plural "%{count} hours ago"
+msgid "%{count} hour"
+msgid_plural "%{count} hours"
 msgstr[0] "%{count} ora fa"
 msgstr[1] "%{count} ore fa"
 
 #: lib/l10n/translator.ex:364
-msgid "%{count} minute ago"
-msgid_plural "%{count} minutes ago"
+msgid "%{count} minute"
+msgid_plural "%{count} minutes"
 msgstr[0] "%{count} minuto fa"
 msgstr[1] "%{count} minuti fa"
 
 #: lib/l10n/translator.ex:324
-msgid "%{count} month ago"
-msgid_plural "%{count} months ago"
+msgid "%{count} month"
+msgid_plural "%{count} months"
 msgstr[0] "%{count} mese fa"
 msgstr[1] "%{count} mesi fa"
 
 #: lib/l10n/translator.ex:367
-msgid "%{count} second ago"
-msgid_plural "%{count} seconds ago"
+msgid "%{count} second"
+msgid_plural "%{count} seconds"
 msgstr[0] "%{count} secondo fa"
 msgstr[1] "%{count} secondi fa"
 
 #: lib/l10n/translator.ex:330
-msgid "%{count} week ago"
-msgid_plural "%{count} weeks ago"
+msgid "%{count} week"
+msgid_plural "%{count} weeks"
 msgstr[0] "%{count} settimana fa"
 msgstr[1] "%{count} settimane fa"
 
 #: lib/l10n/translator.ex:318
-msgid "%{count} year ago"
-msgid_plural "%{count} years ago"
+msgid "%{count} year"
+msgid_plural "%{count} years"
 msgstr[0] "%{count} anno fa"
 msgstr[1] "%{count} anni fa"
 

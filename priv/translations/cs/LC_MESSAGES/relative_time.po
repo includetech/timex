@@ -72,50 +72,50 @@ msgid "yesterday"
 msgstr "včera"
 
 #: lib/l10n/translator.ex:336
-msgid "%{count} day ago"
-msgid_plural "%{count} days ago"
+msgid "%{count} day"
+msgid_plural "%{count} days"
 msgstr[0] "před %{count} dnem"
 msgstr[1] "před %{count} dny"
 msgstr[2] "před %{count} dny"
 
 #: lib/l10n/translator.ex:361
-msgid "%{count} hour ago"
-msgid_plural "%{count} hours ago"
+msgid "%{count} hour"
+msgid_plural "%{count} hours"
 msgstr[0] "před %{count} hodinou"
 msgstr[1] "před %{count} hodinami"
 msgstr[2] "před %{count} hodinami"
 
 #: lib/l10n/translator.ex:364
-msgid "%{count} minute ago"
-msgid_plural "%{count} minutes ago"
+msgid "%{count} minute"
+msgid_plural "%{count} minutes"
 msgstr[0] "před %{count} minutou"
 msgstr[1] "před %{count} minutami"
 msgstr[2] "před %{count} minutami"
 
 #: lib/l10n/translator.ex:324
-msgid "%{count} month ago"
-msgid_plural "%{count} months ago"
+msgid "%{count} month"
+msgid_plural "%{count} months"
 msgstr[0] "před %{count} měsícem"
 msgstr[1] "před %{count} měsíci"
 msgstr[2] "před %{count} měsíci"
 
 #: lib/l10n/translator.ex:367
-msgid "%{count} second ago"
-msgid_plural "%{count} seconds ago"
+msgid "%{count} second"
+msgid_plural "%{count} seconds"
 msgstr[0] "před %{count} sekundou"
 msgstr[1] "před %{count} sekundami"
 msgstr[2] "před %{count} sekundami"
 
 #: lib/l10n/translator.ex:330
-msgid "%{count} week ago"
-msgid_plural "%{count} weeks ago"
+msgid "%{count} week"
+msgid_plural "%{count} weeks"
 msgstr[0] "před %{count} týdnem"
 msgstr[1] "před %{count} týdny"
 msgstr[2] "před %{count} týdny"
 
 #: lib/l10n/translator.ex:318
-msgid "%{count} year ago"
-msgid_plural "%{count} years ago"
+msgid "%{count} year"
+msgid_plural "%{count} years"
 msgstr[0] "před %{count} rokem"
 msgstr[1] "před %{count} léty"
 msgstr[2] "před %{count} léty"

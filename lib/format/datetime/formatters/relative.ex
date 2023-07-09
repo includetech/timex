@@ -9,17 +9,17 @@ defmodule Timex.Format.DateTime.Formatters.Relative do
   | Range	                     | Sample Output
   ---------------------------------------------------------------------
   | 0 seconds                  | now
-  | 1 to 45 seconds	           | a few seconds ago
-  | 45 to 90 seconds	         | a minute ago
-  | 90 seconds to 45 minutes	 | 2 minutes ago ... 45 minutes ago
-  | 45 to 90 minutes	         | an hour ago
-  | 90 minutes to 22 hours	   | 2 hours ago ... 22 hours ago
-  | 22 to 36 hours	           | a day ago
-  | 36 hours to 25 days	       | 2 days ago ... 25 days ago
-  | 25 to 45 days	             | a month ago
-  | 45 to 345 days	           | 2 months ago ... 11 months ago
-  | 345 to 545 days (1.5 years)  | a year ago
-  | 546 days+	                 | 2 years ago ... 20 years ago
+  | 1 to 45 seconds	           | a few seconds
+  | 45 to 90 seconds	         | a minute
+  | 90 seconds to 45 minutes	 | 2 minutes ... 45 minutes
+  | 45 to 90 minutes	         | an hour
+  | 90 minutes to 22 hours	   | 2 hours ... 22 hours
+  | 22 to 36 hours	           | a day
+  | 36 hours to 25 days	       | 2 days ... 25 days
+  | 25 to 45 days	             | a month
+  | 45 to 345 days	           | 2 months ... 11 months
+  | 345 to 545 days (1.5 years)  | a year
+  | 546 days+	                 | 2 years ... 20 years
   """
   use Timex.Format.DateTime.Formatter
   use Combine
@@ -48,7 +48,7 @@ defmodule Timex.Format.DateTime.Formatters.Relative do
   ## Examples
 
       iex> #{__MODULE__}.format(Timex.shift(Timex.now, minutes: -1), "{relative}")
-      {:ok, "1 minute ago"}
+      {:ok, "1 minute"}
   """
   @spec format(Types.calendar_types(), String.t()) :: {:ok, String.t()} | {:error, term}
   def format(date, format_string), do: lformat(date, format_string, Translator.current_locale())
@@ -232,8 +232,8 @@ defmodule Timex.Format.DateTime.Formatters.Relative do
           Translator.translate_plural(
             locale,
             "relative_time",
-            "%{count} second ago",
-            "%{count} seconds ago",
+            "%{count} second",
+            "%{count} seconds",
             diff * -1
           )
 
@@ -241,8 +241,8 @@ defmodule Timex.Format.DateTime.Formatters.Relative do
           Translator.translate_plural(
             locale,
             "relative_time",
-            "%{count} minute ago",
-            "%{count} minutes ago",
+            "%{count} minute",
+            "%{count} minutes",
             1
           )
 
@@ -250,8 +250,8 @@ defmodule Timex.Format.DateTime.Formatters.Relative do
           Translator.translate_plural(
             locale,
             "relative_time",
-            "%{count} minute ago",
-            "%{count} minutes ago",
+            "%{count} minute",
+            "%{count} minutes",
             div(diff * -1, @minute)
           )
 
@@ -259,8 +259,8 @@ defmodule Timex.Format.DateTime.Formatters.Relative do
           Translator.translate_plural(
             locale,
             "relative_time",
-            "%{count} hour ago",
-            "%{count} hours ago",
+            "%{count} hour",
+            "%{count} hours",
             1
           )
 
@@ -268,8 +268,8 @@ defmodule Timex.Format.DateTime.Formatters.Relative do
           Translator.translate_plural(
             locale,
             "relative_time",
-            "%{count} hour ago",
-            "%{count} hours ago",
+            "%{count} hour",
+            "%{count} hours",
             div(diff * -1, @hour)
           )
 
@@ -284,8 +284,8 @@ defmodule Timex.Format.DateTime.Formatters.Relative do
           Translator.translate_plural(
             locale,
             "relative_time",
-            "%{count} day ago",
-            "%{count} days ago",
+            "%{count} day",
+            "%{count} days",
             div(diff * -1, @day)
           )
 
@@ -293,8 +293,8 @@ defmodule Timex.Format.DateTime.Formatters.Relative do
           Translator.translate_plural(
             locale,
             "relative_time",
-            "%{count} month ago",
-            "%{count} months ago",
+            "%{count} month",
+            "%{count} months",
             1
           )
 
@@ -302,8 +302,8 @@ defmodule Timex.Format.DateTime.Formatters.Relative do
           Translator.translate_plural(
             locale,
             "relative_time",
-            "%{count} month ago",
-            "%{count} months ago",
+            "%{count} month",
+            "%{count} months",
             div(diff * -1, @month)
           )
 
@@ -311,8 +311,8 @@ defmodule Timex.Format.DateTime.Formatters.Relative do
           Translator.translate_plural(
             locale,
             "relative_time",
-            "%{count} year ago",
-            "%{count} years ago",
+            "%{count} year",
+            "%{count} years",
             1
           )
 
@@ -320,8 +320,8 @@ defmodule Timex.Format.DateTime.Formatters.Relative do
           Translator.translate_plural(
             locale,
             "relative_time",
-            "%{count} year ago",
-            "%{count} years ago",
+            "%{count} year",
+            "%{count} years",
             div(diff * -1, @year)
           )
       end

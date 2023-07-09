@@ -374,7 +374,7 @@ defmodule Timex do
 
       iex> use Timex
       ...> Timex.from_now(Timex.shift(DateTime.utc_now(), days: -2))
-      "2 days ago"
+      "2 days"
   """
   @spec from_now(Types.valid_datetime()) :: String.t() | {:error, term}
   def from_now(datetime), do: from_now(datetime, Timex.Translator.current_locale())

@@ -70,50 +70,50 @@ msgid "yesterday"
 msgstr "juče"
 
 #: lib/l10n/translator.ex:336
-msgid "%{count} day ago"
-msgid_plural "%{count} days ago"
+msgid "%{count} day"
+msgid_plural "%{count} days"
 msgstr[0] "pre %{count} dan"
 msgstr[1] "pre %{count} dana"
 msgstr[2] "pre %{count} dana"
 
 #: lib/l10n/translator.ex:361
-msgid "%{count} hour ago"
-msgid_plural "%{count} hours ago"
+msgid "%{count} hour"
+msgid_plural "%{count} hours"
 msgstr[0] "pre %{count} sat"
 msgstr[1] "pre %{count} sata"
 msgstr[2] "pre %{count} sati"
 
 #: lib/l10n/translator.ex:364
-msgid "%{count} minute ago"
-msgid_plural "%{count} minutes ago"
+msgid "%{count} minute"
+msgid_plural "%{count} minutes"
 msgstr[0] "pre %{count} minut"
 msgstr[1] "pre %{count} minute"
 msgstr[2] "pre %{count} minuta"
 
 #: lib/l10n/translator.ex:324
-msgid "%{count} month ago"
-msgid_plural "%{count} months ago"
+msgid "%{count} month"
+msgid_plural "%{count} months"
 msgstr[0] "pre %{count} mesec"
 msgstr[1] "pre %{count} meseca"
 msgstr[2] "pre %{count} meseci"
 
 #: lib/l10n/translator.ex:367
-msgid "%{count} second ago"
-msgid_plural "%{count} seconds ago"
+msgid "%{count} second"
+msgid_plural "%{count} seconds"
 msgstr[0] "pre %{count} sekunda"
 msgstr[1] "pre %{count} sekunde"
 msgstr[2] "pre %{count} sekundi"
 
 #: lib/l10n/translator.ex:330
-msgid "%{count} week ago"
-msgid_plural "%{count} weeks ago"
+msgid "%{count} week"
+msgid_plural "%{count} weeks"
 msgstr[0] "pre %{count} nedelju"
 msgstr[1] "pre %{count} nedelje"
 msgstr[2] "pre %{count} nedelja"
 
 #: lib/l10n/translator.ex:318
-msgid "%{count} year ago"
-msgid_plural "%{count} years ago"
+msgid "%{count} year"
+msgid_plural "%{count} years"
 msgstr[0] "pre %{count} godinu"
 msgstr[1] "pre %{count} godine"
 msgstr[2] "pre %{count} godina"

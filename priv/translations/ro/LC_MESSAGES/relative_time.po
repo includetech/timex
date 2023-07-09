@@ -69,50 +69,50 @@ msgid "yesterday"
 msgstr "ieri"
 
 #: lib/l10n/translator.ex:336
-msgid "%{count} day ago"
-msgid_plural "%{count} days ago"
+msgid "%{count} day"
+msgid_plural "%{count} days"
 msgstr[0] "acum o zi"
 msgstr[1] "acum %{count} zile"
 msgstr[2] "acum %{count} de zile"
 
 #: lib/l10n/translator.ex:361
-msgid "%{count} hour ago"
-msgid_plural "%{count} hours ago"
+msgid "%{count} hour"
+msgid_plural "%{count} hours"
 msgstr[0] "acum o oră"
 msgstr[1] "acum %{count} ore"
 msgstr[2] "acum %{count} de ore"
 
 #: lib/l10n/translator.ex:364
-msgid "%{count} minute ago"
-msgid_plural "%{count} minutes ago"
+msgid "%{count} minute"
+msgid_plural "%{count} minutes"
 msgstr[0] "acum un minut"
 msgstr[1] "acum %{count} minute"
 msgstr[2] "acum %{count} de minute"
 
 #: lib/l10n/translator.ex:324
-msgid "%{count} month ago"
-msgid_plural "%{count} months ago"
+msgid "%{count} month"
+msgid_plural "%{count} months"
 msgstr[0] "acum o lună"
 msgstr[1] "acum %{count} luni"
 msgstr[2] "acum %{count} de luni"
 
 #: lib/l10n/translator.ex:367
-msgid "%{count} second ago"
-msgid_plural "%{count} seconds ago"
+msgid "%{count} second"
+msgid_plural "%{count} seconds"
 msgstr[0] "acum o secundă"
 msgstr[1] "acum %{count} secunde"
 msgstr[2] "acum %{count} de secunde"
 
 #: lib/l10n/translator.ex:330
-msgid "%{count} week ago"
-msgid_plural "%{count} weeks ago"
+msgid "%{count} week"
+msgid_plural "%{count} weeks"
 msgstr[0] "acum o săptămână"
 msgstr[1] "acum %{count} săptămâni"
 msgstr[2] "acum %{count} de săptămâni"
 
 #: lib/l10n/translator.ex:318
-msgid "%{count} year ago"
-msgid_plural "%{count} years ago"
+msgid "%{count} year"
+msgid_plural "%{count} years"
 msgstr[0] "acum un an"
 msgstr[1] "acum %{count} ani"
 msgstr[2] "acum %{count} de ani"

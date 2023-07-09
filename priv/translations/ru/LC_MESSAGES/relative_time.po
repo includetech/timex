@@ -69,50 +69,50 @@ msgid "yesterday"
 msgstr "вчера"
 
 #: lib/l10n/translator.ex:336
-msgid "%{count} day ago"
-msgid_plural "%{count} days ago"
+msgid "%{count} day"
+msgid_plural "%{count} days"
 msgstr[0] "%{count} день назад"
 msgstr[1] "%{count} дня назад"
 msgstr[2] "%{count} дней назад"
 
 #: lib/l10n/translator.ex:361
-msgid "%{count} hour ago"
-msgid_plural "%{count} hours ago"
+msgid "%{count} hour"
+msgid_plural "%{count} hours"
 msgstr[0] "%{count} час назад"
 msgstr[1] "%{count} часа назад"
 msgstr[2] "%{count} часов назад"
 
 #: lib/l10n/translator.ex:364
-msgid "%{count} minute ago"
-msgid_plural "%{count} minutes ago"
+msgid "%{count} minute"
+msgid_plural "%{count} minutes"
 msgstr[0] "%{count} минуту назад"
 msgstr[1] "%{count} минуты назад"
 msgstr[2] "%{count} минут назад"
 
 #: lib/l10n/translator.ex:324
-msgid "%{count} month ago"
-msgid_plural "%{count} months ago"
+msgid "%{count} month"
+msgid_plural "%{count} months"
 msgstr[0] "%{count} месяц назад"
 msgstr[1] "%{count} месяца назад"
 msgstr[2] "%{count} месяцев назад"
 
 #: lib/l10n/translator.ex:367
-msgid "%{count} second ago"
-msgid_plural "%{count} seconds ago"
+msgid "%{count} second"
+msgid_plural "%{count} seconds"
 msgstr[0] "%{count} секунду назад"
 msgstr[1] "%{count} секунды назад"
 msgstr[2] "%{count} секунд назад"
 
 #: lib/l10n/translator.ex:330
-msgid "%{count} week ago"
-msgid_plural "%{count} weeks ago"
+msgid "%{count} week"
+msgid_plural "%{count} weeks"
 msgstr[0] "%{count} неделю назад"
 msgstr[1] "%{count} недели назад"
 msgstr[2] "%{count} недель назад"
 
 #: lib/l10n/translator.ex:318
-msgid "%{count} year ago"
-msgid_plural "%{count} years ago"
+msgid "%{count} year"
+msgid_plural "%{count} years"
 msgstr[0] "%{count} год назад"
 msgstr[1] "%{count} года назад"
 msgstr[2] "%{count} лет назад"

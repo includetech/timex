@@ -70,50 +70,50 @@ msgid "yesterday"
 msgstr "јучер"
 
 #: lib/l10n/translator.ex:336
-msgid "%{count} day ago"
-msgid_plural "%{count} days ago"
+msgid "%{count} day"
+msgid_plural "%{count} days"
 msgstr[0] "прије %{count} дан"
 msgstr[1] "прије %{count} дана"
 msgstr[2] "прије %{count} дана"
 
 #: lib/l10n/translator.ex:361
-msgid "%{count} hour ago"
-msgid_plural "%{count} hours ago"
+msgid "%{count} hour"
+msgid_plural "%{count} hours"
 msgstr[0] "прије %{count} сат"
 msgstr[1] "прије %{count} сата"
 msgstr[2] "прије %{count} сати"
 
 #: lib/l10n/translator.ex:364
-msgid "%{count} minute ago"
-msgid_plural "%{count} minutes ago"
+msgid "%{count} minute"
+msgid_plural "%{count} minutes"
 msgstr[0] "прије %{count} минуту"
 msgstr[1] "прије %{count} минуте"
 msgstr[2] "прије %{count} минута"
 
 #: lib/l10n/translator.ex:324
-msgid "%{count} month ago"
-msgid_plural "%{count} months ago"
+msgid "%{count} month"
+msgid_plural "%{count} months"
 msgstr[0] "прије %{count} мјесец"
 msgstr[1] "прије %{count} мјесеца"
 msgstr[2] "прије %{count} мјесеци"
 
 #: lib/l10n/translator.ex:367
-msgid "%{count} second ago"
-msgid_plural "%{count} seconds ago"
+msgid "%{count} second"
+msgid_plural "%{count} seconds"
 msgstr[0] "прије %{count} секунду"
 msgstr[1] "прије %{count} секунде"
 msgstr[2] "прије %{count} секунди"
 
 #: lib/l10n/translator.ex:330
-msgid "%{count} week ago"
-msgid_plural "%{count} weeks ago"
+msgid "%{count} week"
+msgid_plural "%{count} weeks"
 msgstr[0] "прије %{count} седмицу"
 msgstr[1] "прије %{count} седмице"
 msgstr[2] "прије %{count} седмица"
 
 #: lib/l10n/translator.ex:318
-msgid "%{count} year ago"
-msgid_plural "%{count} years ago"
+msgid "%{count} year"
+msgid_plural "%{count} years"
 msgstr[0] "прије %{count} годину"
 msgstr[1] "прије %{count} године"
 msgstr[2] "прије %{count} година"

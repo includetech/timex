@@ -315,25 +315,25 @@ defmodule Timex.Translator do
   dgettext("relative_time", "this year")
   dgettext("relative_time", "next year")
   dngettext("relative_time", "in %{count} year", "in %{count} years", 0)
-  dngettext("relative_time", "%{count} year ago", "%{count} years ago", 0)
+  dngettext("relative_time", "%{count} year", "%{count} years", 0)
   # relative months
   dgettext("relative_time", "last month")
   dgettext("relative_time", "this month")
   dgettext("relative_time", "next month")
   dngettext("relative_time", "in %{count} month", "in %{count} months", 0)
-  dngettext("relative_time", "%{count} month ago", "%{count} months ago", 0)
+  dngettext("relative_time", "%{count} month", "%{count} months", 0)
   # relative weeks
   dgettext("relative_time", "last week")
   dgettext("relative_time", "this week")
   dgettext("relative_time", "next week")
   dngettext("relative_time", "in %{count} week", "in %{count} weeks", 0)
-  dngettext("relative_time", "%{count} week ago", "%{count} weeks ago", 0)
+  dngettext("relative_time", "%{count} week", "%{count} weeks", 0)
   # relative days
   dgettext("relative_time", "yesterday")
   dgettext("relative_time", "today")
   dgettext("relative_time", "tomorrow")
   dngettext("relative_time", "in %{count} day", "in %{count} days", 0)
-  dngettext("relative_time", "%{count} day ago", "%{count} days ago", 0)
+  dngettext("relative_time", "%{count} day", "%{count} days", 0)
   # relative weekdays
   dgettext("relative_time", "last monday")
   dgettext("relative_time", "this monday")
@@ -358,13 +358,13 @@ defmodule Timex.Translator do
   dgettext("relative_time", "next sunday")
   # relative hours
   dngettext("relative_time", "in %{count} hour", "in %{count} hours", 0)
-  dngettext("relative_time", "%{count} hour ago", "%{count} hours ago", 0)
+  dngettext("relative_time", "%{count} hour", "%{count} hours", 0)
   # relative minutes
   dngettext("relative_time", "in %{count} minute", "in %{count} minutes", 0)
-  dngettext("relative_time", "%{count} minute ago", "%{count} minutes ago", 0)
+  dngettext("relative_time", "%{count} minute", "%{count} minutes", 0)
   # relative seconds
   dngettext("relative_time", "in %{count} second", "in %{count} seconds", 0)
-  dngettext("relative_time", "%{count} second ago", "%{count} seconds ago", 0)
+  dngettext("relative_time", "%{count} second", "%{count} seconds", 0)
   # relative now
   dgettext("relative_time", "now")
 

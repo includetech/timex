@@ -59,50 +59,50 @@ msgid "yesterday"
 msgstr "vakar"
 
 #: lib/l10n/translator.ex:336
-msgid "%{count} day ago"
-msgid_plural "%{count} days ago"
+msgid "%{count} day"
+msgid_plural "%{count} days"
 msgstr[0] "pirms %{count} dienas"
 msgstr[1] "pirms %{count} dienām"
 msgstr[2] "pirms %{count} dienām"
 
 #: lib/l10n/translator.ex:361
-msgid "%{count} hour ago"
-msgid_plural "%{count} hours ago"
+msgid "%{count} hour"
+msgid_plural "%{count} hours"
 msgstr[0] "pirms %{count} stundas"
 msgstr[1] "pirms %{count} stundām"
 msgstr[2] "pirms %{count} stundām"
 
 #: lib/l10n/translator.ex:364
-msgid "%{count} minute ago"
-msgid_plural "%{count} minutes ago"
+msgid "%{count} minute"
+msgid_plural "%{count} minutes"
 msgstr[0] "pirms %{count} minūtes"
 msgstr[1] "pirms %{count} minūtēm"
 msgstr[2] "pirms %{count} minūtēm"
 
 #: lib/l10n/translator.ex:324
-msgid "%{count} month ago"
-msgid_plural "%{count} months ago"
+msgid "%{count} month"
+msgid_plural "%{count} months"
 msgstr[0] "pirms %{count} mēneša"
 msgstr[1] "pirms %{count} mēnešiem"
 msgstr[2] "pirms %{count} mēnešiem"
 
 #: lib/l10n/translator.ex:367
-msgid "%{count} second ago"
-msgid_plural "%{count} seconds ago"
+msgid "%{count} second"
+msgid_plural "%{count} seconds"
 msgstr[0] "pirms %{count} sekundes"
 msgstr[1] "pirms %{count} sekundēm"
 msgstr[2] "pirms %{count} sekundēm"
 
 #: lib/l10n/translator.ex:330
-msgid "%{count} week ago"
-msgid_plural "%{count} weeks ago"
+msgid "%{count} week"
+msgid_plural "%{count} weeks"
 msgstr[0] "pirms %{count} nedēļas"
 msgstr[1] "pirms %{count} nedēļām"
 msgstr[2] "pirms %{count} nedēļām"
 
 #: lib/l10n/translator.ex:318
-msgid "%{count} year ago"
-msgid_plural "%{count} years ago"
+msgid "%{count} year"
+msgid_plural "%{count} years"
 msgstr[0] "pirms %{count} gada"
 msgstr[1] "pirms %{count} gadiem"
 msgstr[2] "pirms %{count} gadiem"

@@ -136,7 +136,7 @@ You can find the full documentation on this format and its options
 ### Relative Format
 
 This is a human readable relative date/time format that consists of a single
-directive, `{relative}`, and produces values like "a few seconds ago", or
-"2 days ago".
+directive, `{relative}`, and produces values like "a few seconds", or
+"2 days".
 
 You can find the full chart of mappings from ranges to values [here](https://hexdocs.pm/timex/Timex.Format.DateTime.Formatters.Relative.html).
